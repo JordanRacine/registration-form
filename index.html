@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Registration Form</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/modules.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/type.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body class="gutter">
+  <div class="pad-t-2 pad-b max length">
+    <h1 class="exa not-bold"> Want to go to Mars?</h1>
+    <p class-"mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+    <form>
+      <feildset>
+        <legend class="italic giga not-bold">Personal details</legend>
+        <div class="grid">
+          <div class="unit unit-xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+            <label>Name</label>
+            <input id="name" type="name" name="name">
+          </div>
+          <div class="unit unit-xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+            <label>Age</label>
+            <input id="number" type="number" name="number">
+          </div>
+          <div class="unit unit-xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+            <label>Email</label>
+            <input id="email" type="email" name="email">
+          </div>
+          <div class="unit unit-xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+            <label for="subject">Physical fitness</label>
+            <select id="subject" name="subject">
+              <option>Super-human</option>
+              <option>Fit as a fiddle</option>
+              <option>Not terribly strong</option>
+              <option>A little couch-potato-y</option>
+            </select>
+          </div>
+          <div class="unit unit-xs-1 s-1 m-1 l-1-2 xl-1-2 push">
+            <label for="address">Address</label>
+            <textarea id="address" name="address"></textarea>
+          </div>
+        </div>
+      </feildset>
+      <feildset>
+        <legend> Mission Statement</legend>
+        <div class="unit unit-xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <label for="message">Why do you want to go to Mars?</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
+        <input type="hidden" name="subject" value="Request to join the mission">
+        <div>
+          <button> Register for the trip!</button>
+        </div>
+      </feildset>
+    </form>
+  </div>
+</body>
+</html>
